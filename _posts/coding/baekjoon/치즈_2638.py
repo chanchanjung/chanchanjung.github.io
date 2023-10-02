@@ -10,7 +10,7 @@ for cheese in cheese_list:
     cheese_count += cheese.count(1)
 
 
-def dfs(cheese_list, visited, queue, N, M):
+def bfs(cheese_list, visited, queue, N, M):
     dx = [-1, 1, 0, 0]
     dy = [0, 0, -1, 1]
     while queue:
