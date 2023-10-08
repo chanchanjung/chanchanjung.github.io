@@ -20,8 +20,6 @@ def dfs(campus, stack, N, M):
         print("TT")
 
 
-
-
 N, M = map(int, sys.stdin.readline().strip().split())
 
 campus = [list(sys.stdin.readline().strip())  for _ in range(N)]
